@@ -1,0 +1,17 @@
+{
+
+  "manifest_version": 2,
+  "name": "GitHub Trick or Treat",
+  "version": "1.0",
+  "description": "Adds some nice tricks and treats to GitHub",
+  "icons": {
+    "48": "icons/trick-48.png",
+    "256": "icons/trick-256.png"
+  },
+  "content_scripts": [
+    {
+      "matches": ["https://github.com/*/*/pull/*"],
+      "js": ["tricks.js"]
+    }
+  ]
+}
