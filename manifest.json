@@ -2,6 +2,7 @@
     "manifest_version": 2,
     "name": "GitHub Trick or Treat",
     "version": "1.0",
+    "author": "Peter Bengtsson",
     "description": "Adds some nice tricks and treats to GitHub",
     "homepage_url": "https://github.com/peterbe/github-tricks-and-treats",
     "icons": {
